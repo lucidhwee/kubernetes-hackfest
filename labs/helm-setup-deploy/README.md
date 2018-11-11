@@ -174,6 +174,7 @@ In this lab we will setup Helm in our AKS cluster and deploy our application wit
     service/weather-api          LoadBalancer   10.0.179.66    23.96.11.49    3003:31951/TCP   8m
     ```
 
+    If you get a message 'ImagePullBackOff' from a pod, then check step 4 gain and try 'helm upgrade' for the specific application.
     * Browse to the web UI
 
     ```bash
