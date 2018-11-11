@@ -105,7 +105,7 @@ In order to trigger this pipeline you will need your own Github account and fork
     * Kind = Azure Service Principal
     * Scope = Global
     * Subscription ID = use Subscription ID from cluster creation
-    * Client ID =  use Subscription ID from cluster creation
+    * Client ID =  use Subscription ID from cluster creation `=> I think it's kind of a typo..`
     * Client Secret = use Client Secret from cluster creation
     * Tenant ID = use Tenant ID from cluster creation
     * Azure Environment = Azure
