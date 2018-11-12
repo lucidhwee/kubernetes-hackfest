@@ -115,6 +115,7 @@ This section shows how to leverage Azure Monitor for Containers for gaining Moni
 
     * Ok, we have looked at logs on the Worker Nodes, what about the Master Nodes? The Master Node Logs should be synced up by now and starting to be captured so let's give it at try.
     * Similar to the above with AKS Logs, here are some examples of Master Node Queries that can be used.
+    *  In the Azure portal, select the resource group for your Log Analytics workspace, such as myResourceGroup, then choose your Log Analytics resource, such as myAKSLogs.
         * Look at Categories inside of Azure Diagnostics
 
         ```text
