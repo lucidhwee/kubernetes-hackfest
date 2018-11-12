@@ -21,7 +21,7 @@ Kubernetes network policies are application centric compared to infrastructure/n
 
 In this lab we will use Kube-Router for Network Policy Management. Kube-Router will use ipsets with iptables to ensure your firewall rules have as little performance impact on your cluster as possible.
 
-## Instructions
+## Instructions  - `If you already apply Lab 3(Helm Setup and Deploy Application) in your Azure environment, You should change all your namespace into <default> in the following yaml file and kubectl`
 
 1. Run the following commands to deploy kube-router and verify it is running on your cluster.
 
